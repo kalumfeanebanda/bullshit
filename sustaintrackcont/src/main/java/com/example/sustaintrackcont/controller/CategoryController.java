@@ -11,7 +11,7 @@ import jakarta.validation.Valid;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:5174") // Allow Vue frontend
+@CrossOrigin(origins = "http://localhost:5173") // Allow Vue frontend
 @RestController
 @RequestMapping("/category") // Base URL for all endpoints
 public class CategoryController {
